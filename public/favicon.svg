@@ -1,0 +1,50 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded dark background badge -->
+  <rect width="24" height="24" rx="6" fill="#1C1917" />
+  
+  <!-- LAYER 1: BACK COILS OF THE SNAKE (passing behind spine) -->
+  <path d="M14.4 16.8 C14.0 15.8 10.0 15.5 9.6 14.8" stroke="#D97706" stroke-width="1.65" stroke-linecap="round" />
+  <path d="M14.4 12.2 C14.0 11.2 10.0 10.9 9.6 10.2" stroke="#D97706" stroke-width="1.65" stroke-linecap="round" />
+  <path d="M14.4 7.6 C14.0 6.6 10.0 6.3 9.7 5.6" stroke="#D97706" stroke-width="1.65" stroke-linecap="round" />
+
+  <!-- LAYER 2: SCALE (Base, Spine, Fulcrum, Beam, Dishes) -->
+  <path d="M8.5 21H15.5" stroke="#FAFAF9" stroke-width="2" stroke-linecap="round" />
+  <line x1="12" y1="4.5" x2="12" y2="20.5" stroke="#FAFAF9" stroke-width="1.8" stroke-linecap="round" />
+  <circle cx="12" cy="3.5" r="1.4" fill="#FAFAF9" />
+  <line x1="4" y1="7.5" x2="20" y2="7.5" stroke="#FAFAF9" stroke-width="1.75" stroke-linecap="round" />
+  
+  <!-- Left dish strings & pan -->
+  <path d="M4 7.5L2 13.5M4 7.5L6 13.5" stroke="#FAFAF9" stroke-width="1.2" stroke-linecap="round" />
+  <path d="M1 13.5C1 15.5 2.8 17 4 17C5.2 17 7 15.5 7 13.5H1Z" fill="#FAFAF9" fill-opacity="0.25" stroke="#FAFAF9" stroke-width="1.2" stroke-linejoin="round" />
+  
+  <!-- Feather on Left Pan -->
+  <path d="M4.0 13.2 C2.3 11.4 2.2 9.0 3.0 7.2 C4.0 8.0 5.1 10.2 4.0 13.2Z" fill="#38BDF8" stroke="#38BDF8" stroke-width="0.3" stroke-linejoin="round" />
+  <path d="M4.0 13.4 C3.6 11.2 3.3 9.0 3.0 7.0" stroke="#E0F2FE" stroke-width="0.75" stroke-linecap="round" />
+  <path d="M3.4 9.0 L2.6 8.6 M3.6 10.4 L2.6 10.1 M3.7 11.7 L2.9 11.7" stroke="#E0F2FE" stroke-width="0.45" stroke-linecap="round" />
+
+  <!-- Right dish strings & pan -->
+  <path d="M20 7.5L18 13.5M20 7.5L22 13.5" stroke="#FAFAF9" stroke-width="1.2" stroke-linecap="round" />
+  <path d="M17 13.5C17 15.5 18.8 17 20 17C21.2 17 23 15.5 23 13.5H17Z" fill="#FAFAF9" fill-opacity="0.25" stroke="#FAFAF9" stroke-width="1.2" stroke-linejoin="round" />
+
+  <!-- Heart on Right Pan -->
+  <path d="M20.0 13.2 C18.4 11.9 17.8 10.3 18.8 9.4 C19.6 8.8 20.0 9.3 20.0 9.9 C20.0 9.3 20.4 8.8 21.2 9.4 C22.2 10.3 21.6 11.9 20.0 13.2Z" fill="#F43F5E" stroke="#F43F5E" stroke-width="0.35" stroke-linejoin="round" />
+  <circle cx="19.3" cy="9.9" r="0.4" fill="#FDA4AF" />
+
+  <!-- LAYER 3: FRONT COILS OF THE SNAKE (crossing over spine in front) -->
+  <!-- Tail curl -->
+  <path d="M12.8 20.8 C11.2 21.2 9.4 20.6 9.6 19.4" stroke="#F59E0B" stroke-width="1.5" stroke-linecap="round" />
+  <!-- Coil 1 in front -->
+  <path d="M9.6 19.4 C10.0 18.4 14.0 17.6 14.4 16.8" stroke="#1C1917" stroke-width="2.6" stroke-linecap="round" />
+  <path d="M9.6 19.4 C10.0 18.4 14.0 17.6 14.4 16.8" stroke="#FBBF24" stroke-width="1.75" stroke-linecap="round" />
+  <!-- Coil 2 in front -->
+  <path d="M9.6 14.8 C10.0 13.8 14.0 13.0 14.4 12.2" stroke="#1C1917" stroke-width="2.6" stroke-linecap="round" />
+  <path d="M9.6 14.8 C10.0 13.8 14.0 13.0 14.4 12.2" stroke="#FBBF24" stroke-width="1.75" stroke-linecap="round" />
+  <!-- Coil 3 in front -->
+  <path d="M9.6 10.2 C10.0 9.2 14.0 8.4 14.4 7.6" stroke="#1C1917" stroke-width="2.6" stroke-linecap="round" />
+  <path d="M9.6 10.2 C10.0 9.2 14.0 8.4 14.4 7.6" stroke="#FBBF24" stroke-width="1.75" stroke-linecap="round" />
+  <!-- Neck and Head arching above fulcrum -->
+  <path d="M9.7 5.6 C10.2 4.4 12.6 3.8 13.6 3.2" stroke="#1C1917" stroke-width="2.6" stroke-linecap="round" />
+  <path d="M9.7 5.6 C10.2 4.4 12.6 3.8 13.6 3.2" stroke="#FBBF24" stroke-width="1.7" stroke-linecap="round" />
+  <path d="M13.6 2.6L14.7 3.2L13.6 3.8L12.8 3.2Z" fill="#FBBF24" />
+  <circle cx="13.7" cy="3.1" r="0.35" fill="#1C1917" />
+</svg>

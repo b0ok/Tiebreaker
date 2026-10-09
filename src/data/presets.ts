@@ -1,0 +1,58 @@
+import { DecisionPreset } from '../types';
+
+export const PRESET_DILEMMAS: DecisionPreset[] = [
+  {
+    id: 'career_startup_vs_corp',
+    title: 'Startup with Equity vs. Stable Corporate Job',
+    category: 'Career',
+    iconName: 'Briefcase',
+    dilemma: 'Should I accept an early-stage Series A startup offer with significant equity or stay at my stable Fortune 500 company?',
+    options: ['Join Series A Startup', 'Stay at Corporate Tech Firm'],
+    context: 'I have 8 months of emergency runway, no dependents yet, and value high learning velocity, but I am somewhat anxious about burn rates.',
+  },
+  {
+    id: 'life_buy_vs_rent',
+    title: 'Buy a Home Now vs. Rent & Invest in Index Funds',
+    category: 'Finance & Housing',
+    iconName: 'Home',
+    dilemma: 'Should I buy a 3-bedroom suburban home now with current mortgage rates, or continue renting in the city and aggressively invest down payment funds?',
+    options: ['Buy Suburban Home', 'Rent & Invest in Stocks'],
+    context: 'Plan to stay in the city for at least 3-4 years, but property prices keep appreciating. Weighing maintenance stress and mortgage interest vs lifestyle flexibility.',
+  },
+  {
+    id: 'tech_macbook_vs_framework',
+    title: 'MacBook Pro M-Series vs. Modular Framework Laptop',
+    category: 'Purchases',
+    iconName: 'Laptop',
+    dilemma: 'Should I purchase a top-tier MacBook Pro M4 or a modular, repairable Framework 16 laptop running Linux/Windows?',
+    options: ['MacBook Pro M4', 'Modular Framework 16'],
+    context: 'I do software engineering, occasional creative editing, and travel often. I love battery life, but strongly support repairability and upgradability.',
+  },
+  {
+    id: 'startup_launch_mvp_vs_waitlist',
+    title: 'Build Feature-Complete App vs. Ship Lean Waitlist',
+    category: 'Entrepreneurship',
+    iconName: 'Rocket',
+    dilemma: 'Should I spend another 2 months polishing all core features before launch, or put up a lean landing page with a waitlist and preorder link today?',
+    options: ['Launch Lean Waitlist Now', 'Polish Full Feature Set First'],
+    context: 'Solo founder with limited marketing budget. Fear of first impressions falling flat vs fear of building features nobody pays for.',
+  },
+  {
+    id: 'life_relocate_vs_stay',
+    title: 'Relocate for Dream Role vs. Stay Near Family & Roots',
+    category: 'Relocation & Life',
+    iconName: 'Compass',
+    dilemma: 'Should I relocate across the country to a major tech hub for a career-defining role, or remain in my hometown near lifelong friends and aging parents?',
+    options: ['Relocate to Tech Hub', 'Remain Close to Family & Roots'],
+    context: 'The role offers 40% higher compensation and unprecedented network growth, but moving means starting over socially and living a 5-hour flight away from family.',
+  },
+  {
+    id: 'education_mba_vs_promotion',
+    title: 'Pursue Top-Tier MBA vs. Accept Fast-Track Management Role',
+    category: 'Education & Career',
+    iconName: 'GraduationCap',
+    dilemma: 'Should I take on student debt to attend a top-10 full-time MBA program, or accept an internal promotion to Lead Product Manager?',
+    options: ['Attend Full-Time MBA', 'Accept Lead PM Promotion'],
+    context: 'Admitted to a top program with partial scholarship, but the promotion provides immediate salary increases, real team ownership, and eliminates 2 years of lost earnings.',
+  },
+];
